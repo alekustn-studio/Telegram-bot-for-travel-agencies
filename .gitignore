@@ -1,0 +1,50 @@
+# Секреты и локальная конфигурация
+.env
+.env.*
+!.env.example
+
+# SQLite и локальные данные пользователей бота
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-log.txt
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ключи / сертификаты (на будущее)
+*.pem
+*.key
+
+# PDF гайда — не в репо (путь задаётся через PDF_FILE_PATH в .env)
+guide.pdf
